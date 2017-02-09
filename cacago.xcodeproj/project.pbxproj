@@ -302,6 +302,7 @@
 				5D04344E1E4896FD0095AF5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

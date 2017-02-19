@@ -12,6 +12,8 @@
 		5D0434431E4896FD0095AF5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0434411E4896FD0095AF5A /* Main.storyboard */; };
 		5D0434451E4896FD0095AF5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D0434441E4896FD0095AF5A /* Assets.xcassets */; };
 		5D0434481E4896FD0095AF5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0434461E4896FD0095AF5A /* LaunchScreen.storyboard */; };
+		5DF6F9711E59A52100010666 /* TrueLove .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF6F9701E59A52100010666 /* TrueLove .storyboard */; };
+		5DF6F9731E59B0FE00010666 /* TrueLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6F9721E59B0FE00010666 /* TrueLoveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		5D0434441E4896FD0095AF5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D0434471E4896FD0095AF5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D0434491E4896FD0095AF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF6F9701E59A52100010666 /* TrueLove .storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "TrueLove .storyboard"; sourceTree = "<group>"; };
+		5DF6F9721E59B0FE00010666 /* TrueLoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueLoveViewController.swift; sourceTree = "<group>"; };
+		5DF6F9741E59E7D300010666 /* MyHomework5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyHomework5.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 		5D0434311E4896FC0095AF5A = {
 			isa = PBXGroup;
 			children = (
+				5DF6F9741E59E7D300010666 /* MyHomework5.playground */,
 				5D04343C1E4896FD0095AF5A /* cacago */,
 				5D04343B1E4896FD0095AF5A /* Products */,
 			);
@@ -58,6 +64,8 @@
 				5D04343F1E4896FD0095AF5A /* ViewController.swift */,
 				5D0434411E4896FD0095AF5A /* Main.storyboard */,
 				5D0434441E4896FD0095AF5A /* Assets.xcassets */,
+				5DF6F9701E59A52100010666 /* TrueLove .storyboard */,
+				5DF6F9721E59B0FE00010666 /* TrueLoveViewController.swift */,
 				5D0434461E4896FD0095AF5A /* LaunchScreen.storyboard */,
 				5D0434491E4896FD0095AF5A /* Info.plist */,
 			);
@@ -125,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D0434481E4896FD0095AF5A /* LaunchScreen.storyboard in Resources */,
+				5DF6F9711E59A52100010666 /* TrueLove .storyboard in Resources */,
 				5D0434451E4896FD0095AF5A /* Assets.xcassets in Resources */,
 				5D0434431E4896FD0095AF5A /* Main.storyboard in Resources */,
 			);
@@ -139,6 +148,7 @@
 			files = (
 				5D0434401E4896FD0095AF5A /* ViewController.swift in Sources */,
 				5D04343E1E4896FD0095AF5A /* AppDelegate.swift in Sources */,
+				5DF6F9731E59B0FE00010666 /* TrueLoveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

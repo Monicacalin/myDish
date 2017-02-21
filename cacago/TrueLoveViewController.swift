@@ -10,7 +10,41 @@ import UIKit
 
 class TrueLoveViewController: UIViewController {
 
+    @IBOutlet weak var wrong: UIImageView!
+    @IBOutlet weak var bingo: UIImageView!
+    @IBOutlet weak var genderSegment: UISegmentedControl!
+    @IBOutlet weak var ageSlider: UISlider!
     @IBOutlet weak var starTextField: UITextField!
+    
+    
+    @IBAction func buttonSubmit(_ sender: Any)
+    {
+        if starTextField.text! == "水瓶座"
+        {
+            if genderSegment.selectedSegmentIndex == 0
+            {
+                bingo.isHidden=true
+                wrong.isHidden=false
+            }
+            else
+            {
+                bingo.isHidden=false
+                wrong.isHidden=true
+                
+            }
+
+            bingo.isHidden=false
+            wrong.isHidden=true
+        }
+        else
+        {
+            bingo.isHidden=true
+            wrong.isHidden=false
+            
+        }
+
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

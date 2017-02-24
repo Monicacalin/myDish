@@ -49,6 +49,10 @@ class TrueLoveViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        starTextField.text! = "巨蟹座"
+        genderSegment.selectedSegmentIndex = 0
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -12,9 +12,9 @@
 		5D0434431E4896FD0095AF5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0434411E4896FD0095AF5A /* Main.storyboard */; };
 		5D0434451E4896FD0095AF5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D0434441E4896FD0095AF5A /* Assets.xcassets */; };
 		5D0434481E4896FD0095AF5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0434461E4896FD0095AF5A /* LaunchScreen.storyboard */; };
-		5D0E52A11E5F1F0100A95E43 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0E52A01E5F1F0100A95E43 /* Storyboard.storyboard */; };
-		5DF6F9711E59A52100010666 /* TrueLove .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF6F9701E59A52100010666 /* TrueLove .storyboard */; };
-		5DF6F9731E59B0FE00010666 /* TrueLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6F9721E59B0FE00010666 /* TrueLoveViewController.swift */; };
+		5DACB2481E6D811D0097D98D /* Dish.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DACB2471E6D811D0097D98D /* Dish.storyboard */; };
+		5DACB24A1E6D82B80097D98D /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACB2491E6D82B80097D98D /* InfoViewController.swift */; };
+		5DACB24C1E6F01220097D98D /* DishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACB24B1E6F01220097D98D /* DishViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		5D0434441E4896FD0095AF5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D0434471E4896FD0095AF5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D0434491E4896FD0095AF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D0E52A01E5F1F0100A95E43 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		5DF6F9701E59A52100010666 /* TrueLove .storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "TrueLove .storyboard"; sourceTree = "<group>"; };
-		5DF6F9721E59B0FE00010666 /* TrueLoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueLoveViewController.swift; sourceTree = "<group>"; };
+		5DACB2471E6D811D0097D98D /* Dish.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dish.storyboard; sourceTree = "<group>"; };
+		5DACB2491E6D82B80097D98D /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5DACB24B1E6F01220097D98D /* DishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DishViewController.swift; path = ../DishViewController.swift; sourceTree = "<group>"; };
 		5DF6F9741E59E7D300010666 /* MyHomework5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyHomework5.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,12 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				5D04343D1E4896FD0095AF5A /* AppDelegate.swift */,
+				5DACB24B1E6F01220097D98D /* DishViewController.swift */,
 				5D04343F1E4896FD0095AF5A /* ViewController.swift */,
 				5D0434411E4896FD0095AF5A /* Main.storyboard */,
 				5D0434441E4896FD0095AF5A /* Assets.xcassets */,
-				5DF6F9701E59A52100010666 /* TrueLove .storyboard */,
-				5D0E52A01E5F1F0100A95E43 /* Storyboard.storyboard */,
-				5DF6F9721E59B0FE00010666 /* TrueLoveViewController.swift */,
+				5DACB2471E6D811D0097D98D /* Dish.storyboard */,
+				5DACB2491E6D82B80097D98D /* InfoViewController.swift */,
 				5D0434461E4896FD0095AF5A /* LaunchScreen.storyboard */,
 				5D0434491E4896FD0095AF5A /* Info.plist */,
 			);
@@ -135,11 +135,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DACB2481E6D811D0097D98D /* Dish.storyboard in Resources */,
 				5D0434481E4896FD0095AF5A /* LaunchScreen.storyboard in Resources */,
-				5DF6F9711E59A52100010666 /* TrueLove .storyboard in Resources */,
 				5D0434451E4896FD0095AF5A /* Assets.xcassets in Resources */,
 				5D0434431E4896FD0095AF5A /* Main.storyboard in Resources */,
-				5D0E52A11E5F1F0100A95E43 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D0434401E4896FD0095AF5A /* ViewController.swift in Sources */,
+				5DACB24A1E6D82B80097D98D /* InfoViewController.swift in Sources */,
+				5DACB24C1E6F01220097D98D /* DishViewController.swift in Sources */,
 				5D04343E1E4896FD0095AF5A /* AppDelegate.swift in Sources */,
-				5DF6F9731E59B0FE00010666 /* TrueLoveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

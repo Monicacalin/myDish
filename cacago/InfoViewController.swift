@@ -9,13 +9,48 @@
 import UIKit
 
 class InfoViewController: UIViewController {
-    var name:String!
-
-    @IBOutlet weak var nameLabel: UILabel!
+    var infoDetail = InfoDetail()
     
+   
+    @IBOutlet weak var starLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var heightLabel: UILabel!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        //透過button & viewController之間連線的segue
+        let controller = segue.destination as! EditInfoViewController
+        controller.editInfo = infoDetail
+    }
+    
+    func reloadInfo()
+    {
+        //更新個人資訊
+        nameLabel.text = infoDetail.name
+        starLabel.text = infoDetail.star
+        heightLabel.text = String(infoDetail.height)
+    }
+    
+    func getUpdateNoti(noti:Notification)
+    {
+        //接收編輯頁面回傳的資訊
+        infoDetail = noti.userInfo!["transfer"] as! InfoDetail
+        reloadInfo()
+        
+    }
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.nameLabel.text = self.name
+        
+        
+        
+        //接收編輯頁面回傳的資訊
+        let notificationName = Notification.Name("GetUpdateNoti")
+        NotificationCenter.default.addObserver(self, selector: #selector(getUpdateNoti(noti:)), name: notificationName, object: nil)
+        
+        
+        //更新修改後的值
+        reloadInfo()
 
         // Do any additional setup after loading the view.
     }

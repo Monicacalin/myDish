@@ -15,6 +15,10 @@
 		5DACB2481E6D811D0097D98D /* Dish.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DACB2471E6D811D0097D98D /* Dish.storyboard */; };
 		5DACB24A1E6D82B80097D98D /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACB2491E6D82B80097D98D /* InfoViewController.swift */; };
 		5DACB24C1E6F01220097D98D /* DishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACB24B1E6F01220097D98D /* DishViewController.swift */; };
+		5DF257BB1E74342E00E75F39 /* EditInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF257BA1E74342E00E75F39 /* EditInfoViewController.swift */; };
+		5DF257BD1E7440A300E75F39 /* InfoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF257BC1E7440A300E75F39 /* InfoDetail.swift */; };
+		5DFF7D4D1E71944A00E6940A /* LoversTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFF7D4C1E71944A00E6940A /* LoversTable.storyboard */; };
+		5DFF7D4F1E71959200E6940A /* LoversTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFF7D4E1E71959200E6940A /* LoversTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +32,11 @@
 		5DACB2471E6D811D0097D98D /* Dish.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dish.storyboard; sourceTree = "<group>"; };
 		5DACB2491E6D82B80097D98D /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		5DACB24B1E6F01220097D98D /* DishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DishViewController.swift; path = ../DishViewController.swift; sourceTree = "<group>"; };
+		5DF257BA1E74342E00E75F39 /* EditInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditInfoViewController.swift; sourceTree = "<group>"; };
+		5DF257BC1E7440A300E75F39 /* InfoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetail.swift; sourceTree = "<group>"; };
 		5DF6F9741E59E7D300010666 /* MyHomework5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyHomework5.playground; sourceTree = "<group>"; };
+		5DFF7D4C1E71944A00E6940A /* LoversTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoversTable.storyboard; sourceTree = "<group>"; };
+		5DFF7D4E1E71959200E6940A /* LoversTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoversTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +72,14 @@
 			children = (
 				5D04343D1E4896FD0095AF5A /* AppDelegate.swift */,
 				5DACB24B1E6F01220097D98D /* DishViewController.swift */,
+				5DF257BC1E7440A300E75F39 /* InfoDetail.swift */,
+				5DFF7D4C1E71944A00E6940A /* LoversTable.storyboard */,
+				5DFF7D4E1E71959200E6940A /* LoversTableViewController.swift */,
 				5D04343F1E4896FD0095AF5A /* ViewController.swift */,
 				5D0434411E4896FD0095AF5A /* Main.storyboard */,
 				5D0434441E4896FD0095AF5A /* Assets.xcassets */,
 				5DACB2471E6D811D0097D98D /* Dish.storyboard */,
+				5DF257BA1E74342E00E75F39 /* EditInfoViewController.swift */,
 				5DACB2491E6D82B80097D98D /* InfoViewController.swift */,
 				5D0434461E4896FD0095AF5A /* LaunchScreen.storyboard */,
 				5D0434491E4896FD0095AF5A /* Info.plist */,
@@ -139,6 +151,7 @@
 				5D0434481E4896FD0095AF5A /* LaunchScreen.storyboard in Resources */,
 				5D0434451E4896FD0095AF5A /* Assets.xcassets in Resources */,
 				5D0434431E4896FD0095AF5A /* Main.storyboard in Resources */,
+				5DFF7D4D1E71944A00E6940A /* LoversTable.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D0434401E4896FD0095AF5A /* ViewController.swift in Sources */,
+				5DFF7D4F1E71959200E6940A /* LoversTableViewController.swift in Sources */,
 				5DACB24A1E6D82B80097D98D /* InfoViewController.swift in Sources */,
 				5DACB24C1E6F01220097D98D /* DishViewController.swift in Sources */,
+				5DF257BB1E74342E00E75F39 /* EditInfoViewController.swift in Sources */,
+				5DF257BD1E7440A300E75F39 /* InfoDetail.swift in Sources */,
 				5D04343E1E4896FD0095AF5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

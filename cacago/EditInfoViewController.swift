@@ -26,7 +26,7 @@ class EditInfoViewController: UIViewController {
         //回前一頁 prepare+dismiss
        //self.dismiss(animated: true, completion: nil)
         //回到前一頁
-        self.navigationController?.popViewController(animated: true)
+        _=self.navigationController?.popViewController(animated: true)
         
         
     }
